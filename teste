@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legacy Skin - Skincare Oficial</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fffaf8;
+      color: #333;
+    }
+
+    header {
+      background: #ffe8e0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    section {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #c25c5c;
+      margin-top: 30px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "✔️";
+      margin-right: 8px;
+    }
+
+    blockquote {
+      background: #f9f9f9;
+      border-left: 5px solid #ccc;
+      margin: 20px 0;
+      padding: 10px 15px;
+      font-style: italic;
+    }
+
+    .buy-button {
+      display: block;
+      background: #ff6f61;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin: 30px auto;
+      width: 80%;
+      max-width: 300px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    footer {
+      background: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #555;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Legacy Skin</h1>
+    <p>O cuidado que a sua pele merece</p>
+  </header>
+
+  <section>
+    <h2>✨ Por que escolher nosso produto?</h2>
+    <ul>
+      <li>Textura leve e de rápida absorção</li>
+      <li>Hidratação sem oleosidade</li>
+      <li>Sensação refrescante na pele</li>
+      <li>Ideal para todas as rotinas de skincare</li>
+    </ul>
+
+    <h2>👩‍🔬 Desenvolvido por especialistas</h2>
+    <p>Fórmula equilibrada e dermatologicamente testada, perfeita para a pele da mulher brasileira.</p>
+
+    <h2>❤️ O que as clientes estão dizendo:</h2>
+    <blockquote>
+      "Sinto minha pele muito mais fresca logo após aplicar!"
+    </blockquote>
+    <blockquote>
+      "É ótimo para usar antes da maquiagem, deixa a pele sequinha e hidratada."
+    </blockquote>
+    <blockquote>
+      "Uso todos os dias, virou parte do meu ritual."
+    </blockquote>
+    <h2>📦 Compre com segurança</h2>
+    <ul>
+      <li>Entrega rápida para todo o Brasil</li>
+      <li>Suporte dedicado ao cliente</li>
+      <li>Satisfação garantida — veja nossa política abaixo</li>
+    </ul>
+
+    <a class="buy-button" href="https://checkout.payt.com.br/7da3270fafd99ed8fcc9e395f4e7c181?split=12&src=TIKTOK&&&" target="_blank">COMPRAR AGORA</a>
+  </section>
+
+  <footer>
+    <a href="#">Política de Privacidade</a> |
+    <a href="#">Termos de Uso</a> |
+    <a href="mailto:contato@seudominio.com">Contato</a>
+  </footer>
+
+</body>
+</html>
